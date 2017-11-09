@@ -8,7 +8,7 @@
 # LICENSE:      MIT License
 # COPYRIGHT:    Copyright (C) 2017  Bob Weiner
 #
-# LAST-MOD:      9-Nov-17 at 08:40:55 by Bob Weiner
+# LAST-MOD:      9-Nov-17 at 16:14:46 by Bob Weiner
 #
 # DESCRIPTION:  
 """
@@ -24,6 +24,10 @@ Sll: A Python3 MutableSequence, polymorphic singly linked list
         numeric indexing of list items (0 or greater): s[0]
 
         iteration: for item in s1
+
+        emptiness and boolean truthiness testing:
+           s1.is_empty() returns False; s2.is_empty() returns True
+           s1 and not s2 returns True
 
         containment for finding if an item is in the list: if 2 in s1: print("found it")
 
@@ -244,7 +248,9 @@ class Sll(MutableSequence):
         global a, b
         a = Sll(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
         b = Sll()
+        assert a
         assert not a.is_empty()
+        assert not b
         assert b.is_empty()
 
         assert 7 in a

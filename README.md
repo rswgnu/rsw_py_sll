@@ -7,6 +7,10 @@ A Python3 MutableSequence, polymorphic singly linked list (for educational purpo
 
 * iteration: `for item in s1`
 
+* emptiness and boolean truthiness testing:<br>
+          `s1.is_empty()` returns `False`; `s2.is_empty()` returns `True`<br>
+		  `s1 and not s2` returns `True`
+
 * containment for finding if an item is in the list: `if 2 in s1: print("found it")`
 
 * concatenation with '+': `s1 + s2`
