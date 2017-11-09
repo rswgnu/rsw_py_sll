@@ -8,7 +8,7 @@
 # LICENSE:      MIT License
 # COPYRIGHT:    Copyright (C) 2017  Bob Weiner
 #
-# LAST-MOD:      9-Nov-17 at 08:05:33 by Bob Weiner
+# LAST-MOD:      9-Nov-17 at 08:40:55 by Bob Weiner
 #
 # DESCRIPTION:  
 """
@@ -19,7 +19,7 @@ capabilities as described below.
 Sll: A Python3 MutableSequence, polymorphic singly linked list
      (for educational purposes) offering:
 
-        creation with any number of items: s1 = Sll(0, 1, 2), s2 = Sll()
+        creation with any number of items: s1 = Sll(0, 1, 2); s2 = Sll()
 
         numeric indexing of list items (0 or greater): s[0]
 

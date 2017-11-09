@@ -1,7 +1,7 @@
 # rsw_py_sll
 A Python3 MutableSequence, polymorphic singly linked list (for educational purposes) offering:
 
-* creation with any number of items: `s1 = Sll(0, 1, 2), s2 = Sll()`
+* creation with any number of items: `s1 = Sll(0, 1, 2); s2 = Sll()`
 
 * numeric indexing of list items (0 or greater): `s[0]`
 
