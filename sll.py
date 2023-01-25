@@ -61,7 +61,7 @@ Sll: A Python3 MutableSequence, polymorphic singly linked list
 # Consider using __slots__ to reduce memory usage.
 # Consider adding attr to store last sublist for quick appending performance.
 
-from collections import MutableSequence
+from collections.abc import MutableSequence
 from numbers import Integral
 class Sll(MutableSequence):
     "An Iterable, Singly Linked List"
